@@ -19,7 +19,7 @@ public class LoginController implements ErrorController{
 	@Autowired
 	LoginService aLoginService;
 
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	@RequestMapping(value = "/technoFanatico", method = RequestMethod.GET)
 	public String ShowLoginPage(ModelMap aMap) {
 		return "indexPages/welcomePage";
 	}
