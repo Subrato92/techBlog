@@ -26,41 +26,57 @@
 		</div>
 	</nav>  
 	
-	<div class="jumbotron" style="height: 450px;">
-		<h1 class="display-4">Welcome To The Fanatic World Of Technology!</h1>
-		<p class="lead">let's get fanatic...</p>
+	<div class="jumbotron">
+		<div style="min-height: 200px;">
+			<h1 class="display-4">Welcome To The Fanatic World Of Technology!</h1>
+			<p class="lead">let's get fanatic...</p>
+		</div>
 		<hr class="my-4">
 		<p>In the age of fast technological development, we aim at fast learning.</p>
 		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 	</div>
 	
-	<div class="row">
-		<div class="col-sm-2">
-		</div>
-		<div class="col-sm-4">
-			<div class="card text-white bg-info mb-3" style="max-width: 28rem;">
-				<div class="card-body">
-					<h5 class="card-title">
-						Spring Batch  <span class="badge badge-secondary badge-light">New</span>	
-					</h5>
-					<p class="card-text">Streamline your batch process with spring batch framework.</p>
-					<a href="#" class="btn btn-light">Coming Soon...</a>
+	<div class = "row">
+		<div class = "col-sm-4">		
+			<div class="d-flex justify-content-center">
+				<div class="card text-white bg-info mb-3 " style="max-width: 28rem;">
+					<div class="card-body">
+						<h5 class="card-title">
+							Web Hosting <span class="badge badge-secondary badge-light">New</span>						
+						</h5>
+						<p class="card-text">Explore the potential of your content by hosting your site today..</p>
+						<a href="#" class="btn btn-light">Coming Soon...</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-4">
-			<div class="card text-white bg-info mb-3" style="max-width: 28rem;">
-				<div class="card-body">
-					<h5 class="card-title">
-						Spring MVC <span class="badge badge-secondary badge-light">New</span>						
-					</h5>
-					<p class="card-text">Harness the full power of fullstack development with spring MVC.</p>
-					<a href="#" class="btn btn-light">Coming Soon...</a>
+		<div class = "col-sm-4">
+			<div class="d-flex justify-content-center">
+				<div class="card text-white bg-info mb-3 " style="max-width: 28rem;">
+					<div class="card-body">
+						<h5 class="card-title">
+							Spring Batch  <span class="badge badge-secondary badge-light">New</span>	
+						</h5>
+						<p class="card-text">Streamline your batch process with spring batch framework.</p>
+						<a href="#" class="btn btn-light">Coming Soon...</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-2">
-		</div>
+		<div class = "col-sm-4">
+			<div class="d-flex justify-content-center">
+				<div class="card text-white bg-info mb-3 " style="max-width: 28rem;">
+					<div class="card-body">
+						<h5 class="card-title">
+							Spring MVC <span class="badge badge-secondary badge-light">New</span>						
+						</h5>
+						<p class="card-text">Harness the full power of fullstack development with spring MVC.</p>
+						<a href="#" class="btn btn-light">Coming Soon...</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
 	</div>
 	
 	<nav class="navbar navbar-dark bg-dark" style="height: 200px;">
