@@ -24,6 +24,11 @@ public class LoginController implements ErrorController{
 		return "indexPages/welcomePage";
 	}
 	
+	@RequestMapping(value = "/technoFanatico/blogpost", method = RequestMethod.GET)
+	public String ShowBlogPage(ModelMap aMap) {
+		return "indexPages/blogPage";
+	}
+	
 	@RequestMapping(value = "/error")
 	public String fallback() {
 		return "ErrorPage";
